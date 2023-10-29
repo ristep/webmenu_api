@@ -1,4 +1,4 @@
-# StartUp for Dockerized Django with PostgreSQL, Gunicorn, and Nginx
+# API for my future application for restaurant and grocery online store, eventually 
 
 ### Inherited from this [repository](https://github.com/ristep/StartUpDjangoOnDockerNginxPostgreSQL).
 
