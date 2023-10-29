@@ -1,6 +1,6 @@
-# StartUp for Dockerized Django with PostgreSQL, Gunicorn and Nginx
+# StartUp for Dockerized Django with PostgreSQL, Gunicorn, and Nginx
 
-### Based on this [tutorial](https://testdriven.io/dockerizing-django-with-postgres-gunicorn-and-nginx).
+### Inherited from this [repository](https://github.com/ristep/StartUpDjangoOnDockerNginxPostgreSQL).
 
 
 ## From Original ReadMe
@@ -21,7 +21,7 @@ Uses the default Django development server.
 
 ### Production
 
-Uses gunicorn + nginx.
+Uses Gunicorn + Nginx.
 
 1. Rename *.env.prod-sample* to *.env.prod* and *.env.prod.db-sample* to *.env.prod.db*. Update the environment variables.
 1. Build the images and run the containers:
@@ -30,4 +30,4 @@ Uses gunicorn + nginx.
     $ docker-compose -f docker-compose.prod.yml up -d --build
     ```
 
-    Test it out at [http://localhost:1337](http://localhost:1337). No mounted folders. To apply changes, the image must be re-built.
+    Test it out at [http://localhost:1337](http://localhost:1337). No mounted folders. To apply changes, the image must be rebuilt.
