@@ -11,7 +11,7 @@ from django.contrib.auth import views as auth_views
 class LoginView(auth_views.LoginView):
     redirect_authenticated_user = True
     template_name = "login.html"
-    # success_url = reverse_lazy("home")
+    success_url = reverse_lazy("home")
     next_page = "home"
 
 
