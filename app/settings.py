@@ -42,12 +42,13 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'rest_framework_simplejwt.token_blacklist',
-    'corsheaders',
-    'jwt_token',
     "widget_tweaks",
+    'corsheaders',
 
     "static_pages",
     "account",
+    'jwt_token',
+    'restaurant',
 
     "upload",
 ]

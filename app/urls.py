@@ -9,6 +9,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("account/", include("account.urls")),
     path("api/", include("jwt_token.urls")),
+    path("api/", include("restaurant.urls")),
     path("upload/", include("upload.urls")),
 ]
 
