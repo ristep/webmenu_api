@@ -56,9 +56,9 @@ class Restaurant(models.Model):
 class Vendor(models.Model):
     name = models.CharField(max_length=128)
     address = models.CharField(max_length=256)
-    phone_number = models.CharField(max_length=16)
+    phone_number = models.CharField(max_length=16, blank=True, null=True)
     email = models.EmailField()
-    website = models.URLField()
+    website = models.URLField(blank=True, null=True)
 
     ts_create = models.DateTimeField(auto_now_add=True)
     ts_update = models.DateTimeField(auto_now=True)

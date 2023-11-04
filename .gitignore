@@ -13,7 +13,7 @@ __pycache
 .env.prod
 .env.prod.db
 
-
+tmp/
 
 # SCSS #
 .sass-cache/
