@@ -3,7 +3,7 @@ from rest_framework import serializers
 from .models import Product, ProductImage, Restaurant, Vendor
 
 
-class ProductSerializer(serializers.ModelSerializer):
+class ProductSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Product
         fields = (
@@ -21,10 +21,11 @@ class ProductSerializer(serializers.ModelSerializer):
             "tax_by_quantity",
             "tax_by_price",
             "restaurant",
+            "url",
         )
 
 
-class ProductImageSerializer(serializers.ModelSerializer):
+class ProductImageSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = ProductImage
         fields = (
@@ -32,19 +33,21 @@ class ProductImageSerializer(serializers.ModelSerializer):
             "name",
             "description",
             "image",
+            "url",
         )
 
 
-class RestaurantSerializer(serializers.ModelSerializer):
+class RestaurantSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Restaurant
         fields = (
             "name",
             "address",
+            "url",
         )
 
 
-class VendorSerializer(serializers.ModelSerializer):
+class VendorSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Vendor
         fields = (
@@ -53,4 +56,5 @@ class VendorSerializer(serializers.ModelSerializer):
             "phone_number",
             "email",
             "website",
+            "url",
         )

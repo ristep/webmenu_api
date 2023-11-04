@@ -28,7 +28,11 @@ DEBUG = bool(os.environ.get("DEBUG", default=0))
 # For example: 'DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]'
 ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS").split(" ")
 
-CSRF_TRUSTED_ORIGINS = ["http://localhost:1337"]
+
+CSRF_TRUSTED_ORIGINS = [
+    "http://localhost:1337",
+    "http://localhost",
+]
 
 # Application definition
 
@@ -39,17 +43,16 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-
-    'rest_framework',
-    'rest_framework_simplejwt.token_blacklist',
+    # plugins
+    "rest_framework",
+    "rest_framework_simplejwt.token_blacklist",
     "widget_tweaks",
-    'corsheaders',
-
+    "corsheaders",
+    # my apps
     "static_pages",
     "account",
-    'jwt_token',
-    'restaurant',
-
+    "jwt_token",
+    "restaurant",
     "upload",
 ]
 
@@ -88,17 +91,6 @@ WSGI_APPLICATION = "wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
-
-# DATABASES = {
-#     "default": {
-#         "ENGINE": os.environ.get("SQL_ENGINE", "django.db.backends.sqlite3"),
-#         "NAME": os.environ.get("SQL_DATABASE", BASE_DIR / "db.sqlite3"),
-#         "USER": os.environ.get("SQL_USER", "user"),
-#         "PASSWORD": os.environ.get("SQL_PASSWORD", "password"),
-#         "HOST": os.environ.get("SQL_HOST", "localhost"),
-#         "PORT": os.environ.get("SQL_PORT", "5432"),
-#     }
-# }
 
 DATABASES = {
     "default": {
