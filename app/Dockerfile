@@ -1,5 +1,6 @@
 # pull official base image
 FROM python:3.11.4-slim-buster
+# FROM python:3.12.0
 
 # set work directory
 WORKDIR /usr/src/app
@@ -10,6 +11,7 @@ ENV PYTHONUNBUFFERED 1
 
 # install system dependencies
 RUN apt-get update && apt-get install -y netcat
+#RUN apk update && RUN apk add netcat
 
 # install dependencies
 RUN pip install --upgrade pip
