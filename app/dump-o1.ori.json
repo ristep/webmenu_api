@@ -1,0 +1,1119 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2023-11-03T09:39:44.178Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Test A1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2023-11-03T09:40:21.475Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "Pero Cebap",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2023-11-03T09:41:31.949Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Cebap",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2023-11-03T09:43:14.048Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add blacklisted token",
+            "content_type": 7,
+            "codename": "add_blacklistedtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change blacklisted token",
+            "content_type": 7,
+            "codename": "change_blacklistedtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete blacklisted token",
+            "content_type": 7,
+            "codename": "delete_blacklistedtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view blacklisted token",
+            "content_type": 7,
+            "codename": "view_blacklistedtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add outstanding token",
+            "content_type": 8,
+            "codename": "add_outstandingtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change outstanding token",
+            "content_type": 8,
+            "codename": "change_outstandingtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete outstanding token",
+            "content_type": 8,
+            "codename": "delete_outstandingtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view outstanding token",
+            "content_type": 8,
+            "codename": "view_outstandingtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add vendor",
+            "content_type": 9,
+            "codename": "add_vendor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change vendor",
+            "content_type": 9,
+            "codename": "change_vendor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete vendor",
+            "content_type": 9,
+            "codename": "delete_vendor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view vendor",
+            "content_type": 9,
+            "codename": "view_vendor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add restaurant",
+            "content_type": 10,
+            "codename": "add_restaurant"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change restaurant",
+            "content_type": 10,
+            "codename": "change_restaurant"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete restaurant",
+            "content_type": 10,
+            "codename": "delete_restaurant"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view restaurant",
+            "content_type": 10,
+            "codename": "view_restaurant"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add product image",
+            "content_type": 11,
+            "codename": "add_productimage"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change product image",
+            "content_type": 11,
+            "codename": "change_productimage"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete product image",
+            "content_type": 11,
+            "codename": "delete_productimage"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view product image",
+            "content_type": 11,
+            "codename": "view_productimage"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add product",
+            "content_type": 12,
+            "codename": "add_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change product",
+            "content_type": 12,
+            "codename": "change_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete product",
+            "content_type": 12,
+            "codename": "delete_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view product",
+            "content_type": 12,
+            "codename": "view_product"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$i14Pca27otLwOSFzPA7mCZ$KyPCYOd1l3w09FA0mWB+euF7lRgOilfxHSI2xSdN9AQ=",
+            "last_login": "2023-11-05T18:28:46.032Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "Admin Pako 2",
+            "last_name": "Pakovski",
+            "email": "ristepan@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-11-01T08:54:24.155Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": { "app_label": "admin", "model": "logentry" }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": { "app_label": "auth", "model": "permission" }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": { "app_label": "auth", "model": "group" }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": { "app_label": "auth", "model": "user" }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": { "app_label": "contenttypes", "model": "contenttype" }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": { "app_label": "sessions", "model": "session" }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "token_blacklist",
+            "model": "blacklistedtoken"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "token_blacklist",
+            "model": "outstandingtoken"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": { "app_label": "restaurant", "model": "vendor" }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": { "app_label": "restaurant", "model": "restaurant" }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": { "app_label": "restaurant", "model": "productimage" }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 12,
+        "fields": { "app_label": "restaurant", "model": "product" }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "f2lgjsjpnu8928pjngy0djor0gw9exyp",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf-FtSGAw6Mu3fcbyAxMpWogKe3K-O_apAvd3nPOfYmI21ri1nmJcxYXocXpdyNMD647yHestyZTq-syk9wVedAux5b5eT3cv4OCvXxr8kSBaPATGA_KnSGQQcxaWfIIyJhA42SALKfkXDY0ACuvAgQN1on3B_YgN-8:1qySqf:7dy9GnzZz8Jhc9RGL7HyKcr1AK48mvMKlcEE4ieD5u4",
+            "expire_date": "2023-11-16T08:14:41.434Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "pcby5vln8fby2rn7qivg3y1acaeo2r6b",
+        "fields": {
+            "session_data": ".eJxVjMsOwiAQRf-FtSGAw6Mu3fcbyAxMpWogKe3K-O_apAvd3nPOfYmI21ri1nmJcxYXocXpdyNMD647yHestyZTq-syk9wVedAux5b5eT3cv4OCvXxr8kSBaPATGA_KnSGQQcxaWfIIyJhA42SALKfkXDY0ACuvAgQN1on3B_YgN-8:1qzhra:g6X0oeMCO1GSk7Cd_b_bnEDu6E2v4n39OcRuqmvHhms",
+            "expire_date": "2023-11-19T18:28:46.050Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "jti": "3aa61b678f2e499b80736927f9240876",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5ODkxNTQ5NiwiaWF0IjoxNjk4ODI5MDk2LCJqdGkiOiIzYWE2MWI2NzhmMmU0OTliODA3MzY5MjdmOTI0MDg3NiIsInVzZXJfaWQiOjF9.yk3WEFrHxLtF5IJ3JSvq0c1EDIoJIGDKWqb6KX0dJ_E",
+            "created_at": "2023-11-01T08:58:16.232Z",
+            "expires_at": "2023-11-02T08:58:16Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "jti": "903aa24414c542429b1bdb53371cbb58",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5ODkxNTU0MCwiaWF0IjoxNjk4ODI5MTQwLCJqdGkiOiI5MDNhYTI0NDE0YzU0MjQyOWIxYmRiNTMzNzFjYmI1OCIsInVzZXJfaWQiOjF9.nVlbMyfrnX-RtE6Ywu8xzk1LTK7INBLd_SQPSjTDYQA",
+            "created_at": "2023-11-01T08:59:00.835Z",
+            "expires_at": "2023-11-02T08:59:00Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "jti": "a6e2b55d6919402da8b505d5091f573f",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5ODkxNTU0MywiaWF0IjoxNjk4ODI5MTQzLCJqdGkiOiJhNmUyYjU1ZDY5MTk0MDJkYThiNTA1ZDUwOTFmNTczZiIsInVzZXJfaWQiOjF9.aCn3076tecfNZ8YB1jxCuge4vaNKpAb_EOpImKN1Cx0",
+            "created_at": "2023-11-01T08:59:03.895Z",
+            "expires_at": "2023-11-02T08:59:03Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "jti": "a7dffb68b8074895b6db80f54ce6961c",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5ODkxNTU0NSwiaWF0IjoxNjk4ODI5MTQ1LCJqdGkiOiJhN2RmZmI2OGI4MDc0ODk1YjZkYjgwZjU0Y2U2OTYxYyIsInVzZXJfaWQiOjF9.efSoIX2uFbD925iCCtsLWxeUS6Ic4Ncmf9SLxNTy7F8",
+            "created_at": "2023-11-01T08:59:05.863Z",
+            "expires_at": "2023-11-02T08:59:05Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "jti": "38f8371330294ef6b6ff4acc7c9627af",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5ODkxNTU1MSwiaWF0IjoxNjk4ODI5MTUxLCJqdGkiOiIzOGY4MzcxMzMwMjk0ZWY2YjZmZjRhY2M3Yzk2MjdhZiIsInVzZXJfaWQiOjF9.q-U1Kwjy-fyJAQu8EbRuEYqhC2VMfrr3_wXZ0y47mzg",
+            "created_at": "2023-11-01T08:59:11.085Z",
+            "expires_at": "2023-11-02T08:59:11Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 6,
+        "fields": {
+            "user": 1,
+            "jti": "c967c1a28d5a41d287f75dbe58e70615",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5ODkxNTU2OCwiaWF0IjoxNjk4ODI5MTY4LCJqdGkiOiJjOTY3YzFhMjhkNWE0MWQyODdmNzVkYmU1OGU3MDYxNSIsInVzZXJfaWQiOjF9.Az6ocw5WaYfb4VABSyD6_BNOq9ku12NbUf0K6CGCIEQ",
+            "created_at": "2023-11-01T08:59:28.665Z",
+            "expires_at": "2023-11-02T08:59:28Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 7,
+        "fields": {
+            "user": 1,
+            "jti": "7d9ca5d38781414c921ab675db3296ee",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5ODkxNTU3NCwiaWF0IjoxNjk4ODI5MTc0LCJqdGkiOiI3ZDljYTVkMzg3ODE0MTRjOTIxYWI2NzVkYjMyOTZlZSIsInVzZXJfaWQiOjF9.wo-gdG2flmPK1s0xPqHs2nSTSu72LqaThG1hneTn2jU",
+            "created_at": "2023-11-01T08:59:34.867Z",
+            "expires_at": "2023-11-02T08:59:34Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 8,
+        "fields": {
+            "user": 1,
+            "jti": "7f1b1e7464db46a985c9747c27b925c9",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5ODkxNTU4NSwiaWF0IjoxNjk4ODI5MTg1LCJqdGkiOiI3ZjFiMWU3NDY0ZGI0NmE5ODVjOTc0N2MyN2I5MjVjOSIsInVzZXJfaWQiOjF9.AxW727loHj_-oHPFLJ700D6YfWQvlmNRpG9fA_xD-z8",
+            "created_at": "2023-11-01T08:59:45.223Z",
+            "expires_at": "2023-11-02T08:59:45Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 9,
+        "fields": {
+            "user": 1,
+            "jti": "3bfefd53d1bc4c27ac8c9fe8461d5021",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5ODkxNTU4NiwiaWF0IjoxNjk4ODI5MTg2LCJqdGkiOiIzYmZlZmQ1M2QxYmM0YzI3YWM4YzlmZTg0NjFkNTAyMSIsInVzZXJfaWQiOjF9.9HoI_Cfuxh64xy6u8_RgRUPDFxrTc5_2ffbkEZtG2zw",
+            "created_at": "2023-11-01T08:59:46.909Z",
+            "expires_at": "2023-11-02T08:59:46Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 10,
+        "fields": {
+            "user": 1,
+            "jti": "405f344397cf49a6a8d48a6ebc768e76",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5ODkxNTU4OCwiaWF0IjoxNjk4ODI5MTg4LCJqdGkiOiI0MDVmMzQ0Mzk3Y2Y0OWE2YThkNDhhNmViYzc2OGU3NiIsInVzZXJfaWQiOjF9.3moEHWNgBTOWuOsh_HftGMrv2i9emqNTy1kn_LdOW84",
+            "created_at": "2023-11-01T08:59:48.736Z",
+            "expires_at": "2023-11-02T08:59:48Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 11,
+        "fields": {
+            "user": 1,
+            "jti": "f426143d79e54fa4bd27263cbfc6cd8a",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5ODkxNTU5MCwiaWF0IjoxNjk4ODI5MTkwLCJqdGkiOiJmNDI2MTQzZDc5ZTU0ZmE0YmQyNzI2M2NiZmM2Y2Q4YSIsInVzZXJfaWQiOjF9.E5ldO9WeKRnzAmCqxy15xNVL_PzyV-WJQexf0vemu6s",
+            "created_at": "2023-11-01T08:59:50.192Z",
+            "expires_at": "2023-11-02T08:59:50Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 12,
+        "fields": {
+            "user": 1,
+            "jti": "7be2baad645e4660be430e7228715584",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5ODkxNTU5NSwiaWF0IjoxNjk4ODI5MTk1LCJqdGkiOiI3YmUyYmFhZDY0NWU0NjYwYmU0MzBlNzIyODcxNTU4NCIsInVzZXJfaWQiOjF9.6mTUNCESo9Tk3wPx6GU6BxiLQnwdT3Epp7xQIh3qI2g",
+            "created_at": "2023-11-01T08:59:55.231Z",
+            "expires_at": "2023-11-02T08:59:55Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 13,
+        "fields": {
+            "user": 1,
+            "jti": "70160e601d354ab0990179d1d3049592",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5ODk1MDYzMiwiaWF0IjoxNjk4ODY0MjMyLCJqdGkiOiI3MDE2MGU2MDFkMzU0YWIwOTkwMTc5ZDFkMzA0OTU5MiIsInVzZXJfaWQiOjF9.g1DcIZw2CMWSeX6vpIG_JXPLzZVovbc7_TougpxMld4",
+            "created_at": "2023-11-01T18:43:52.464Z",
+            "expires_at": "2023-11-02T18:43:52Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 14,
+        "fields": {
+            "user": 1,
+            "jti": "5628afb2003647a799949c78da12fde4",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5OTIxMjg2NiwiaWF0IjoxNjk5MTI2NDY2LCJqdGkiOiI1NjI4YWZiMjAwMzY0N2E3OTk5NDljNzhkYTEyZmRlNCIsInVzZXJfaWQiOjF9.TOnyThd-gHXlAFuY4W9j8o-qN30Zfwa1S6RmqfBjLF0",
+            "created_at": "2023-11-04T19:34:26.967Z",
+            "expires_at": "2023-11-05T19:34:26Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 15,
+        "fields": {
+            "user": 1,
+            "jti": "5318dea781264cfc8090147b2531a9a8",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY5OTIxMzAyNiwiaWF0IjoxNjk5MTI2NjI2LCJqdGkiOiI1MzE4ZGVhNzgxMjY0Y2ZjODA5MDE0N2IyNTMxYTlhOCIsInVzZXJfaWQiOjF9.vfO7Z_vIQj_dFCtd_OgKfGD2QyTyT-OjLJfR7SRmcI4",
+            "created_at": "2023-11-04T19:37:06.405Z",
+            "expires_at": "2023-11-05T19:37:06Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 16,
+        "fields": {
+            "user": 1,
+            "jti": "cc2ad80d39454487a96f3d4af765a5a9",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMjY0NiwiaWF0IjoxNjk5MTI2NjQ2LCJqdGkiOiJjYzJhZDgwZDM5NDU0NDg3YTk2ZjNkNGFmNzY1YTVhOSIsInVzZXJfaWQiOjF9.QxSz1Sp0RdtMvfmafhQGWcKMgxwHKerDHH_iqVOhJBQ",
+            "created_at": "2023-11-04T19:37:26.669Z",
+            "expires_at": "2024-02-02T19:37:26Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 17,
+        "fields": {
+            "user": 1,
+            "jti": "9ca3ab71073548768d4f7cac019f401e",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMjY2MSwiaWF0IjoxNjk5MTI2NjYxLCJqdGkiOiI5Y2EzYWI3MTA3MzU0ODc2OGQ0ZjdjYWMwMTlmNDAxZSIsInVzZXJfaWQiOjF9.GQtbSUqBHWWiYBR_d9BrI-IPZhuBWA2EF1PTIwnv9ng",
+            "created_at": "2023-11-04T19:37:41.568Z",
+            "expires_at": "2024-02-02T19:37:41Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 18,
+        "fields": {
+            "user": 1,
+            "jti": "4bf7191a345a4ce39e1d212effda1c46",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMjY3NywiaWF0IjoxNjk5MTI2Njc3LCJqdGkiOiI0YmY3MTkxYTM0NWE0Y2UzOWUxZDIxMmVmZmRhMWM0NiIsInVzZXJfaWQiOjF9.0DZxfFGXdIavoYBgv9KeAaCF1LJuMazl5YyS_DjAIw0",
+            "created_at": "2023-11-04T19:37:57.525Z",
+            "expires_at": "2024-02-02T19:37:57Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 19,
+        "fields": {
+            "user": 1,
+            "jti": "755e416f532547849251b7d3e2952556",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMjk2MSwiaWF0IjoxNjk5MTI2OTYxLCJqdGkiOiI3NTVlNDE2ZjUzMjU0Nzg0OTI1MWI3ZDNlMjk1MjU1NiIsInVzZXJfaWQiOjF9.lRwUrPpEBGuxdLP0fCiTmeN_ILRslXEYYgFoVJIQfWQ",
+            "created_at": "2023-11-04T19:42:41.547Z",
+            "expires_at": "2024-02-02T19:42:41Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 20,
+        "fields": {
+            "user": 1,
+            "jti": "75c03607399148029691f2bb4d12f45b",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMjk2NCwiaWF0IjoxNjk5MTI2OTY0LCJqdGkiOiI3NWMwMzYwNzM5OTE0ODAyOTY5MWYyYmI0ZDEyZjQ1YiIsInVzZXJfaWQiOjF9.pXxVGNH_0PTm7gRLZvMtsywgrhSUBTHrGRS8MJqdSTE",
+            "created_at": "2023-11-04T19:42:44.483Z",
+            "expires_at": "2024-02-02T19:42:44Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 21,
+        "fields": {
+            "user": 1,
+            "jti": "1183258174a24ffda8492383c3ec9886",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMjk2NiwiaWF0IjoxNjk5MTI2OTY2LCJqdGkiOiIxMTgzMjU4MTc0YTI0ZmZkYTg0OTIzODNjM2VjOTg4NiIsInVzZXJfaWQiOjF9.AJQjIw6HM9syI3SH5sGbhHmtq182UiW6x_vLtXCIrLs",
+            "created_at": "2023-11-04T19:42:46.806Z",
+            "expires_at": "2024-02-02T19:42:46Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 22,
+        "fields": {
+            "user": 1,
+            "jti": "226be5f1e18b491fba07b7b03e6c62b2",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMjk2OSwiaWF0IjoxNjk5MTI2OTY5LCJqdGkiOiIyMjZiZTVmMWUxOGI0OTFmYmEwN2I3YjAzZTZjNjJiMiIsInVzZXJfaWQiOjF9.7x6QlIjSR9l3Y78GVMXFW5RL29jXjtAi30hnG-ZW7W8",
+            "created_at": "2023-11-04T19:42:49.056Z",
+            "expires_at": "2024-02-02T19:42:49Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 23,
+        "fields": {
+            "user": 1,
+            "jti": "281755eee2974fe1af5bab2492b84546",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMjk5NCwiaWF0IjoxNjk5MTI2OTk0LCJqdGkiOiIyODE3NTVlZWUyOTc0ZmUxYWY1YmFiMjQ5MmI4NDU0NiIsInVzZXJfaWQiOjF9.hs1kQYm29vClzWsqrLF_Sb0Ond6Yjnrfo0uxFq9SIJA",
+            "created_at": "2023-11-04T19:43:14.783Z",
+            "expires_at": "2024-02-02T19:43:14Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 24,
+        "fields": {
+            "user": 1,
+            "jti": "56dbe5641a264c9ab679a06e61c6ee9f",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMzAxMCwiaWF0IjoxNjk5MTI3MDEwLCJqdGkiOiI1NmRiZTU2NDFhMjY0YzlhYjY3OWEwNmU2MWM2ZWU5ZiIsInVzZXJfaWQiOjF9.QdDBf8NROuIszKHBuhMWXwbrpszVlv4Vsf8PUNs8uFM",
+            "created_at": "2023-11-04T19:43:30.880Z",
+            "expires_at": "2024-02-02T19:43:30Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 25,
+        "fields": {
+            "user": 1,
+            "jti": "a9fddad1dd99444e8c32cfc9260be1cd",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMzAyMSwiaWF0IjoxNjk5MTI3MDIxLCJqdGkiOiJhOWZkZGFkMWRkOTk0NDRlOGMzMmNmYzkyNjBiZTFjZCIsInVzZXJfaWQiOjF9.kjW4wHQraW43srEnOweHe8Rr-fFLWt4mVyPfDI68E-M",
+            "created_at": "2023-11-04T19:43:41.240Z",
+            "expires_at": "2024-02-02T19:43:41Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 26,
+        "fields": {
+            "user": 1,
+            "jti": "eb2a97ff839941fbbe2f4984f0f249a1",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMzA1MSwiaWF0IjoxNjk5MTI3MDUxLCJqdGkiOiJlYjJhOTdmZjgzOTk0MWZiYmUyZjQ5ODRmMGYyNDlhMSIsInVzZXJfaWQiOjF9.fePBIFdML-rJnmsFSmSie_khgvtP4isFX0gU1xhssAI",
+            "created_at": "2023-11-04T19:44:11.583Z",
+            "expires_at": "2024-02-02T19:44:11Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 27,
+        "fields": {
+            "user": 1,
+            "jti": "a8168c3842bb4d688c9d16fc05fad792",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMzA2OCwiaWF0IjoxNjk5MTI3MDY4LCJqdGkiOiJhODE2OGMzODQyYmI0ZDY4OGM5ZDE2ZmMwNWZhZDc5MiIsInVzZXJfaWQiOjF9.xH0FtQHNyO5mAYZjGm5BxyCPkXdFASqna5w9efmHpm0",
+            "created_at": "2023-11-04T19:44:28.462Z",
+            "expires_at": "2024-02-02T19:44:28Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 28,
+        "fields": {
+            "user": 1,
+            "jti": "2587dab4c015486498387f6c85461eee",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMzE5OCwiaWF0IjoxNjk5MTI3MTk4LCJqdGkiOiIyNTg3ZGFiNGMwMTU0ODY0OTgzODdmNmM4NTQ2MWVlZSIsInVzZXJfaWQiOjF9.aUDyOfggAsnO47izO35YXmR6K_vuY0HQ8eQ29u9Qwok",
+            "created_at": "2023-11-04T19:46:38.357Z",
+            "expires_at": "2024-02-02T19:46:38Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 29,
+        "fields": {
+            "user": 1,
+            "jti": "dbe71a097a8d47f6bd0fcfcbad9cd608",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMzIwMCwiaWF0IjoxNjk5MTI3MjAwLCJqdGkiOiJkYmU3MWEwOTdhOGQ0N2Y2YmQwZmNmY2JhZDljZDYwOCIsInVzZXJfaWQiOjF9.s8kCziLJL2oFVHW4RdQhv9wMe-pehNdueMjfxUpqUr4",
+            "created_at": "2023-11-04T19:46:40.414Z",
+            "expires_at": "2024-02-02T19:46:40Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 30,
+        "fields": {
+            "user": 1,
+            "jti": "55bf4b34927d4ca8923fbb92934ddc6e",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMzMyMiwiaWF0IjoxNjk5MTI3MzIyLCJqdGkiOiI1NWJmNGIzNDkyN2Q0Y2E4OTIzZmJiOTI5MzRkZGM2ZSIsInVzZXJfaWQiOjF9.yYNKm-v9IH0JcNvCGi6yMOcXTKT_rrChjIwrzueBvxQ",
+            "created_at": "2023-11-04T19:48:42.724Z",
+            "expires_at": "2024-02-02T19:48:42Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 31,
+        "fields": {
+            "user": 1,
+            "jti": "059c5ea11c17453481a2d94a5a06af5d",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMzMyNSwiaWF0IjoxNjk5MTI3MzI1LCJqdGkiOiIwNTljNWVhMTFjMTc0NTM0ODFhMmQ5NGE1YTA2YWY1ZCIsInVzZXJfaWQiOjF9.w4llEgyKv30DnNSAgHVYYHsgFENU1Olr6aHt_DZ3qsM",
+            "created_at": "2023-11-04T19:48:45.067Z",
+            "expires_at": "2024-02-02T19:48:45Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 32,
+        "fields": {
+            "user": 1,
+            "jti": "556a6a1d1dfb43d8810b9c03b08213d0",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMzM3NSwiaWF0IjoxNjk5MTI3Mzc1LCJqdGkiOiI1NTZhNmExZDFkZmI0M2Q4ODEwYjljMDNiMDgyMTNkMCIsInVzZXJfaWQiOjF9.ntGCh0IOAUcbH8IDSlVXiSJPtbqgUK-micAmJHNMyZE",
+            "created_at": "2023-11-04T19:49:35.815Z",
+            "expires_at": "2024-02-02T19:49:35Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 33,
+        "fields": {
+            "user": 1,
+            "jti": "d574e23148fc4b7b8e4d36e9f32a0074",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMzUxNiwiaWF0IjoxNjk5MTI3NTE2LCJqdGkiOiJkNTc0ZTIzMTQ4ZmM0YjdiOGU0ZDM2ZTlmMzJhMDA3NCIsInVzZXJfaWQiOjF9.IivVh2Qb89abtcleZbUbcLxC1e1CE5JoXjTs06t49jo",
+            "created_at": "2023-11-04T19:51:56.078Z",
+            "expires_at": "2024-02-02T19:51:56Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 34,
+        "fields": {
+            "user": 1,
+            "jti": "8d49b7739c9a44319775e8620701cd3e",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMzUxNywiaWF0IjoxNjk5MTI3NTE3LCJqdGkiOiI4ZDQ5Yjc3MzljOWE0NDMxOTc3NWU4NjIwNzAxY2QzZSIsInVzZXJfaWQiOjF9.XHjJvfWhZ30QtktgxjjjRGjr9VFxpnZyW4rFOPgt5DE",
+            "created_at": "2023-11-04T19:51:57.947Z",
+            "expires_at": "2024-02-02T19:51:57Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 35,
+        "fields": {
+            "user": 1,
+            "jti": "6e4d15b1d6434bdeb83fd1ca0cb105ca",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMzYxOSwiaWF0IjoxNjk5MTI3NjE5LCJqdGkiOiI2ZTRkMTViMWQ2NDM0YmRlYjgzZmQxY2EwY2IxMDVjYSIsInVzZXJfaWQiOjF9.ux5EHOunL9T61NjTAXbQl-weVVphliMyVB0Rbd1hn1A",
+            "created_at": "2023-11-04T19:53:39.785Z",
+            "expires_at": "2024-02-02T19:53:39Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 36,
+        "fields": {
+            "user": 1,
+            "jti": "6961e033560b48e18f90cca63d2a7142",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMzYzNCwiaWF0IjoxNjk5MTI3NjM0LCJqdGkiOiI2OTYxZTAzMzU2MGI0OGUxOGY5MGNjYTYzZDJhNzE0MiIsInVzZXJfaWQiOjF9.xZI_jCRG7p5KtVcRCxAYb3I8ppRo3EBRejS40zJ5xMs",
+            "created_at": "2023-11-04T19:53:54.339Z",
+            "expires_at": "2024-02-02T19:53:54Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 37,
+        "fields": {
+            "user": 1,
+            "jti": "738405eaa1bf46ba90c3d10d031bc1c8",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwMzk1MiwiaWF0IjoxNjk5MTI3OTUyLCJqdGkiOiI3Mzg0MDVlYWExYmY0NmJhOTBjM2QxMGQwMzFiYzFjOCIsInVzZXJfaWQiOjF9.fhY6pA9cvvOh5MG9sxnx6RI-wWRIFpPbWMEUxZvXfBU",
+            "created_at": "2023-11-04T19:59:12.898Z",
+            "expires_at": "2024-02-02T19:59:12Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 38,
+        "fields": {
+            "user": 1,
+            "jti": "96ed9ff031e14504a55b393bb5027744",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkwNDQyOSwiaWF0IjoxNjk5MTI4NDI5LCJqdGkiOiI5NmVkOWZmMDMxZTE0NTA0YTU1YjM5M2JiNTAyNzc0NCIsInVzZXJfaWQiOjF9.74Yqoq4iFuW1v2bpJF-FFbUj2IT-7x8DwtAtH96B3Us",
+            "created_at": "2023-11-04T20:07:09.015Z",
+            "expires_at": "2024-02-02T20:07:09Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 39,
+        "fields": {
+            "user": 1,
+            "jti": "8e4cea038be4426bae40e0670b4b5612",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwNjkyMjY4MiwiaWF0IjoxNjk5MTQ2NjgyLCJqdGkiOiI4ZTRjZWEwMzhiZTQ0MjZiYWU0MGUwNjcwYjRiNTYxMiIsInVzZXJfaWQiOjF9.iywtSH1hmS2rlsMVtrvrHVBfDZujLTJKGMSjHcp3Etw",
+            "created_at": "2023-11-05T01:11:22.496Z",
+            "expires_at": "2024-02-03T01:11:22Z"
+        }
+    },
+    {
+        "model": "restaurant.product",
+        "pk": 1,
+        "fields": {
+            "name": "Cebap",
+            "description": "Edno cebapce",
+            "price": "34.00",
+            "ingredients": "Mevce, salce i crevca",
+            "is_vegetarian": false,
+            "is_vegan": false,
+            "is_gluten_free": true,
+            "is_natural": true,
+            "is_drink": false,
+            "contain_alcohol": false,
+            "preparation_time": 12,
+            "tax_by_quantity": "2.00",
+            "tax_by_price": "12.00",
+            "restaurant": 1,
+            "ts_create": "2023-11-03T09:41:31.946Z",
+            "ts_update": "2023-11-03T09:41:31.946Z"
+        }
+    },
+    {
+        "model": "restaurant.product",
+        "pk": 2,
+        "fields": {
+            "name": "Rakia",
+            "description": "Domashna",
+            "price": "35.00",
+            "ingredients": "48% Alc.  rest water",
+            "is_vegetarian": true,
+            "is_vegan": true,
+            "is_gluten_free": true,
+            "is_natural": true,
+            "is_drink": true,
+            "contain_alcohol": true,
+            "preparation_time": 0,
+            "tax_by_quantity": "3.00",
+            "tax_by_price": "15.00",
+            "restaurant": 1,
+            "ts_create": "2023-11-05T16:51:58.531Z",
+            "ts_update": "2023-11-05T18:07:48.346Z"
+        }
+    },
+    {
+        "model": "restaurant.productimage",
+        "pk": 1,
+        "fields": {
+            "product": 1,
+            "name": "1",
+            "description": null,
+            "image": "Product_images/Чебапи.webp",
+            "ts_create": "2023-11-03T09:43:14.045Z",
+            "ts_update": "2023-11-03T09:43:14.045Z"
+        }
+    },
+    {
+        "model": "restaurant.productimage",
+        "pk": 2,
+        "fields": {
+            "product": 2,
+            "name": "1",
+            "description": "",
+            "image": "Product_images/lozova-zolta-1l.jpg",
+            "ts_create": "2023-11-05T16:53:02.027Z",
+            "ts_update": "2023-11-05T16:53:02.027Z"
+        }
+    },
+    {
+        "model": "restaurant.restaurant",
+        "pk": 1,
+        "fields": {
+            "name": "Pero Cebap",
+            "address": "Glavnata Ulica",
+            "ts_create": "2023-11-03T09:40:21.473Z",
+            "ts_update": "2023-11-03T09:40:21.473Z"
+        }
+    },
+    {
+        "model": "restaurant.vendor",
+        "pk": 1,
+        "fields": {
+            "name": "Test A1",
+            "address": "Ulica 23/2",
+            "phone_number": "7000000",
+            "email": "ristepan@gmail.com",
+            "website": "http://nema.mk",
+            "ts_create": "2023-11-03T09:39:44.176Z",
+            "ts_update": "2023-11-03T09:39:44.176Z"
+        }
+    },
+    {
+        "model": "restaurant.vendor",
+        "pk": 2,
+        "fields": {
+            "name": "Test 2",
+            "address": "Skadarlija",
+            "phone_number": "",
+            "email": "testo@meseno.com",
+            "website": "",
+            "ts_create": "2023-11-04T10:54:54.159Z",
+            "ts_update": "2023-11-04T10:54:54.159Z"
+        }
+    }
+]
