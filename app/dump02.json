@@ -1,57 +1,5 @@
 [
     {
-        "model": "admin.logentry",
-        "pk": 1,
-        "fields": {
-            "action_time": "2023-11-03T09:39:44.178Z",
-            "user": 1,
-            "content_type": 9,
-            "object_id": "1",
-            "object_repr": "Test A1",
-            "action_flag": 1,
-            "change_message": "[{\"added\": {}}]"
-        }
-    },
-    {
-        "model": "admin.logentry",
-        "pk": 2,
-        "fields": {
-            "action_time": "2023-11-03T09:40:21.475Z",
-            "user": 1,
-            "content_type": 10,
-            "object_id": "1",
-            "object_repr": "Pero Cebap",
-            "action_flag": 1,
-            "change_message": "[{\"added\": {}}]"
-        }
-    },
-    {
-        "model": "admin.logentry",
-        "pk": 3,
-        "fields": {
-            "action_time": "2023-11-03T09:41:31.949Z",
-            "user": 1,
-            "content_type": 12,
-            "object_id": "1",
-            "object_repr": "Cebap",
-            "action_flag": 1,
-            "change_message": "[{\"added\": {}}]"
-        }
-    },
-    {
-        "model": "admin.logentry",
-        "pk": 4,
-        "fields": {
-            "action_time": "2023-11-03T09:43:14.048Z",
-            "user": 1,
-            "content_type": 11,
-            "object_id": "1",
-            "object_repr": "1",
-            "action_flag": 1,
-            "change_message": "[{\"added\": {}}]"
-        }
-    },
-    {
         "model": "auth.permission",
         "pk": 1,
         "fields": {
@@ -123,7 +71,15 @@
             "codename": "view_permission"
         }
     },
- 
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
     {
         "model": "auth.permission",
         "pk": 10,
@@ -335,36 +291,36 @@
         "model": "auth.permission",
         "pk": 33,
         "fields": {
-            "name": "Can add vendor",
+            "name": "Can add product",
             "content_type": 9,
-            "codename": "add_vendor"
+            "codename": "add_product"
         }
     },
     {
         "model": "auth.permission",
         "pk": 34,
         "fields": {
-            "name": "Can change vendor",
+            "name": "Can change product",
             "content_type": 9,
-            "codename": "change_vendor"
+            "codename": "change_product"
         }
     },
     {
         "model": "auth.permission",
         "pk": 35,
         "fields": {
-            "name": "Can delete vendor",
+            "name": "Can delete product",
             "content_type": 9,
-            "codename": "delete_vendor"
+            "codename": "delete_product"
         }
     },
     {
         "model": "auth.permission",
         "pk": 36,
         "fields": {
-            "name": "Can view vendor",
+            "name": "Can view product",
             "content_type": 9,
-            "codename": "view_vendor"
+            "codename": "view_product"
         }
     },
     {
@@ -407,88 +363,88 @@
         "model": "auth.permission",
         "pk": 41,
         "fields": {
-            "name": "Can add product image",
+            "name": "Can add vendor",
             "content_type": 11,
-            "codename": "add_productimage"
+            "codename": "add_vendor"
         }
     },
     {
         "model": "auth.permission",
         "pk": 42,
         "fields": {
-            "name": "Can change product image",
+            "name": "Can change vendor",
             "content_type": 11,
-            "codename": "change_productimage"
+            "codename": "change_vendor"
         }
     },
     {
         "model": "auth.permission",
         "pk": 43,
         "fields": {
-            "name": "Can delete product image",
+            "name": "Can delete vendor",
             "content_type": 11,
-            "codename": "delete_productimage"
+            "codename": "delete_vendor"
         }
     },
     {
         "model": "auth.permission",
         "pk": 44,
         "fields": {
-            "name": "Can view product image",
+            "name": "Can view vendor",
             "content_type": 11,
-            "codename": "view_productimage"
+            "codename": "view_vendor"
         }
     },
     {
         "model": "auth.permission",
         "pk": 45,
         "fields": {
-            "name": "Can add product",
+            "name": "Can add product image",
             "content_type": 12,
-            "codename": "add_product"
+            "codename": "add_productimage"
         }
     },
     {
         "model": "auth.permission",
         "pk": 46,
         "fields": {
-            "name": "Can change product",
+            "name": "Can change product image",
             "content_type": 12,
-            "codename": "change_product"
+            "codename": "change_productimage"
         }
     },
     {
         "model": "auth.permission",
         "pk": 47,
         "fields": {
-            "name": "Can delete product",
+            "name": "Can delete product image",
             "content_type": 12,
-            "codename": "delete_product"
+            "codename": "delete_productimage"
         }
     },
     {
         "model": "auth.permission",
         "pk": 48,
         "fields": {
-            "name": "Can view product",
+            "name": "Can view product image",
             "content_type": 12,
-            "codename": "view_product"
+            "codename": "view_productimage"
         }
     },
     {
         "model": "auth.user",
         "pk": 1,
         "fields": {
-            "password": "pbkdf2_sha256$600000$i14Pca27otLwOSFzPA7mCZ$KyPCYOd1l3w09FA0mWB+euF7lRgOilfxHSI2xSdN9AQ=",
-            "last_login": "2023-11-05T18:28:46.032Z",
+            "password": "pbkdf2_sha256$600000$LEk4hiu9My7U9AeCGpH9Br$o6Tj+4a4qS1LGSdFK72/IRhmIFJ6bycM62G51o/trHE=",
+            "last_login": "2023-11-12T23:14:57.207Z",
             "is_superuser": true,
             "username": "admin",
-            "first_name": "Admin Pako 2",
-            "last_name": "Pakovski",
+            "first_name": "Riste",
+            "last_name": "Panovski",
             "email": "ristepan@gmail.com",
             "is_staff": true,
             "is_active": true,
-            "date_joined": "2023-11-01T08:54:24.155Z",
+            "date_joined": "2023-11-12T22:57:21.204Z",
             "groups": [],
             "user_permissions": []
         }
@@ -525,137 +481,54 @@
     },
     {
         "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "token_blacklist",
+            "model": "blacklistedtoken"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "token_blacklist",
+            "model": "outstandingtoken"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": { "app_label": "restaurant", "model": "product" }
+    },
+    {
+        "model": "contenttypes.contenttype",
         "pk": 10,
         "fields": { "app_label": "restaurant", "model": "restaurant" }
     },
     {
         "model": "contenttypes.contenttype",
         "pk": 11,
-        "fields": { "app_label": "restaurant", "model": "productimage" }
+        "fields": { "app_label": "restaurant", "model": "vendor" }
     },
     {
         "model": "contenttypes.contenttype",
         "pk": 12,
-        "fields": { "app_label": "restaurant", "model": "product" }
+        "fields": { "app_label": "restaurant", "model": "productimage" }
     },
     {
         "model": "sessions.session",
-        "pk": "f2lgjsjpnu8928pjngy0djor0gw9exyp",
+        "pk": "5uvg5m5xu5wvap2keantv9sbepmca4tn",
         "fields": {
-            "session_data": ".eJxVjMsOwiAQRf-FtSGAw6Mu3fcbyAxMpWogKe3K-O_apAvd3nPOfYmI21ri1nmJcxYXocXpdyNMD647yHestyZTq-syk9wVedAux5b5eT3cv4OCvXxr8kSBaPATGA_KnSGQQcxaWfIIyJhA42SALKfkXDY0ACuvAgQN1on3B_YgN-8:1qySqf:7dy9GnzZz8Jhc9RGL7HyKcr1AK48mvMKlcEE4ieD5u4",
-            "expire_date": "2023-11-16T08:14:41.434Z"
+            "session_data": ".eJxVjMEOwiAQRP-FsyFAYXU9eu83EGAXqRpISnsy_rtt0oMe5jLvzbyFD-tS_Np59hOJq9Di9NvFkJ5cd0CPUO9NplaXeYpyV-RBuxwb8et2uH8HJfSyrZ2DQBkZ0DnkS47GmojAyqazsaDYkkFGdqBTHLICN-iAmTJoNFvE5wvbDjdl:1r2JfN:ZP0D6nqdd3Om5kz9tpuWQ18qHgWOenInsGYy_UAGMp8",
+            "expire_date": "2023-11-26T23:14:57.214Z"
         }
     },
     {
         "model": "sessions.session",
-        "pk": "pcby5vln8fby2rn7qivg3y1acaeo2r6b",
+        "pk": "lo2r31l4zlasf33lyqir8fulo1yfd5yh",
         "fields": {
-            "session_data": ".eJxVjMsOwiAQRf-FtSGAw6Mu3fcbyAxMpWogKe3K-O_apAvd3nPOfYmI21ri1nmJcxYXocXpdyNMD647yHestyZTq-syk9wVedAux5b5eT3cv4OCvXxr8kSBaPATGA_KnSGQQcxaWfIIyJhA42SALKfkXDY0ACuvAgQN1on3B_YgN-8:1qzhra:g6X0oeMCO1GSk7Cd_b_bnEDu6E2v4n39OcRuqmvHhms",
-            "expire_date": "2023-11-19T18:28:46.050Z"
-        }
-    },
-    {
-        "model": "restaurant.product",
-        "pk": 1,
-        "fields": {
-            "name": "Cebap",
-            "description": "Edno cebapce",
-            "price": "34.00",
-            "ingredients": "Mevce, salce i crevca",
-            "is_vegetarian": false,
-            "is_vegan": false,
-            "is_gluten_free": true,
-            "is_natural": true,
-            "is_drink": false,
-            "contain_alcohol": false,
-            "preparation_time": 12,
-            "tax_by_quantity": "2.00",
-            "tax_by_price": "12.00",
-            "restaurant": 1,
-            "ts_create": "2023-11-03T09:41:31.946Z",
-            "ts_update": "2023-11-03T09:41:31.946Z"
-        }
-    },
-    {
-        "model": "restaurant.product",
-        "pk": 2,
-        "fields": {
-            "name": "Rakia",
-            "description": "Domashna",
-            "price": "35.00",
-            "ingredients": "48% Alc.  rest water",
-            "is_vegetarian": true,
-            "is_vegan": true,
-            "is_gluten_free": true,
-            "is_natural": true,
-            "is_drink": true,
-            "contain_alcohol": true,
-            "preparation_time": 0,
-            "tax_by_quantity": "3.00",
-            "tax_by_price": "15.00",
-            "restaurant": 1,
-            "ts_create": "2023-11-05T16:51:58.531Z",
-            "ts_update": "2023-11-05T18:07:48.346Z"
-        }
-    },
-    {
-        "model": "restaurant.productimage",
-        "pk": 1,
-        "fields": {
-            "product": 1,
-            "name": "1",
-            "description": null,
-            "image": "Product_images/Чебапи.webp",
-            "ts_create": "2023-11-03T09:43:14.045Z",
-            "ts_update": "2023-11-03T09:43:14.045Z"
-        }
-    },
-    {
-        "model": "restaurant.productimage",
-        "pk": 2,
-        "fields": {
-            "product": 2,
-            "name": "1",
-            "description": "",
-            "image": "Product_images/lozova-zolta-1l.jpg",
-            "ts_create": "2023-11-05T16:53:02.027Z",
-            "ts_update": "2023-11-05T16:53:02.027Z"
-        }
-    },
-    {
-        "model": "restaurant.restaurant",
-        "pk": 1,
-        "fields": {
-            "name": "Pero Cebap",
-            "address": "Glavnata Ulica",
-            "ts_create": "2023-11-03T09:40:21.473Z",
-            "ts_update": "2023-11-03T09:40:21.473Z"
-        }
-    },
-    {
-        "model": "restaurant.vendor",
-        "pk": 1,
-        "fields": {
-            "name": "Test A1",
-            "address": "Ulica 23/2",
-            "phone_number": "7000000",
-            "email": "ristepan@gmail.com",
-            "website": "http://nema.mk",
-            "ts_create": "2023-11-03T09:39:44.176Z",
-            "ts_update": "2023-11-03T09:39:44.176Z"
-        }
-    },
-    {
-        "model": "restaurant.vendor",
-        "pk": 2,
-        "fields": {
-            "name": "Test 2",
-            "address": "Skadarlija",
-            "phone_number": "",
-            "email": "testo@meseno.com",
-            "website": "",
-            "ts_create": "2023-11-04T10:54:54.159Z",
-            "ts_update": "2023-11-04T10:54:54.159Z"
+            "session_data": ".eJxVjMEOwiAQRP-FsyFAYXU9eu83EGAXqRpISnsy_rtt0oMe5jLvzbyFD-tS_Np59hOJq9Di9NvFkJ5cd0CPUO9NplaXeYpyV-RBuxwb8et2uH8HJfSyrZ2DQBkZ0DnkS47GmojAyqazsaDYkkFGdqBTHLICN-iAmTJoNFvE5wvbDjdl:1r2JZR:Lnv3tbN4NzVnAB0bHpxuYSwJNWH59noO4-o_sQTM8r8",
+            "expire_date": "2023-11-26T23:08:49.662Z"
         }
     }
 ]
