@@ -1,0 +1,931 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2023-12-18T13:39:31.912Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "10",
+            "object_repr": "Гурбии селски",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2023-12-18T13:39:52.928Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "8",
+            "object_repr": "1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Product\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add blacklisted token",
+            "content_type": 7,
+            "codename": "add_blacklistedtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change blacklisted token",
+            "content_type": 7,
+            "codename": "change_blacklistedtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete blacklisted token",
+            "content_type": 7,
+            "codename": "delete_blacklistedtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view blacklisted token",
+            "content_type": 7,
+            "codename": "view_blacklistedtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add outstanding token",
+            "content_type": 8,
+            "codename": "add_outstandingtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change outstanding token",
+            "content_type": 8,
+            "codename": "change_outstandingtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete outstanding token",
+            "content_type": 8,
+            "codename": "delete_outstandingtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view outstanding token",
+            "content_type": 8,
+            "codename": "view_outstandingtoken"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add product",
+            "content_type": 9,
+            "codename": "add_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change product",
+            "content_type": 9,
+            "codename": "change_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete product",
+            "content_type": 9,
+            "codename": "delete_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view product",
+            "content_type": 9,
+            "codename": "view_product"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add restaurant",
+            "content_type": 10,
+            "codename": "add_restaurant"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change restaurant",
+            "content_type": 10,
+            "codename": "change_restaurant"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete restaurant",
+            "content_type": 10,
+            "codename": "delete_restaurant"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view restaurant",
+            "content_type": 10,
+            "codename": "view_restaurant"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add vendor",
+            "content_type": 11,
+            "codename": "add_vendor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change vendor",
+            "content_type": 11,
+            "codename": "change_vendor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete vendor",
+            "content_type": 11,
+            "codename": "delete_vendor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view vendor",
+            "content_type": 11,
+            "codename": "view_vendor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add product image",
+            "content_type": 12,
+            "codename": "add_productimage"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change product image",
+            "content_type": 12,
+            "codename": "change_productimage"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete product image",
+            "content_type": 12,
+            "codename": "delete_productimage"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view product image",
+            "content_type": 12,
+            "codename": "view_productimage"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$A3r8wIwuE28G3aoZ3m4AiL$0HcKrA6rRN/ZsA9Hp+nrKMfjWjCODs9eHYkSjxz/aFs=",
+            "last_login": "2023-12-18T13:39:04.197Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "Ристе",
+            "last_name": "Пановски",
+            "email": "ristepan@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-11-25T11:50:31.712Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "token_blacklist",
+            "model": "blacklistedtoken"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "token_blacklist",
+            "model": "outstandingtoken"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "restaurant",
+            "model": "product"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "restaurant",
+            "model": "restaurant"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "restaurant",
+            "model": "vendor"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 12,
+        "fields": {
+            "app_label": "restaurant",
+            "model": "productimage"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "1e4c7k02uibf0gaqcrcchlcp96lmi4a8",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBBaAGX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIJU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VtrZtBgtSYPjIrGOBqvBseGeECKyZ2BFSSHkR0aZ4Cis95mncFTVuL9AeYZODA:1rFDpo:mkvIEC-n2aYSdC6y1r5PMsF3x7FShOXzp4VC77KBGGs",
+            "expire_date": "2024-01-01T13:39:04.200Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "1rjwfxq7r6tqtpnjnljp4592fiibtdw0",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQAP_C2RAoSysevfsGsuwuUjUlKe3J-HdD0oNeZybzVhH3rcS9yRpnVhdl1emXJaSnLF3wA5d71VSXbZ2T7ok-bNO3yvK6Hu3foGArfQsgjrNB8eEMznvAkRPiCGkQMxlPLnAYcp4YwCEmssRgKVAAgWDU5wvn7zgp:1r7HwI:AlxMToLysGwfA0MS3I1CdJWxuj8XQ9i-4kDndl4KSEw",
+            "expire_date": "2023-12-10T16:24:58.231Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "36j7gm79m4vpnvsljica8uvrcbax6fqy",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQAP_C2RAoSysevfsGsuwuUjUlKe3J-HdD0oNeZybzVhH3rcS9yRpnVhdl1emXJaSnLF3wA5d71VSXbZ2T7ok-bNO3yvK6Hu3foGArfQsgjrNB8eEMznvAkRPiCGkQMxlPLnAYcp4YwCEmssRgKVAAgWDU5wvn7zgp:1r7P0H:5YRNzli7bWCAMctXJEzzHMB5_DxP3f3PsJA4Q-GlvQQ",
+            "expire_date": "2023-12-10T23:57:33.839Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "cihr3ijcsozx31fad571hjetk6dyxyh8",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBBaAGX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIJU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VtrZtBgtSYPjIrGOBqvBseGeECKyZ2BFSSHkR0aZ4Cis95mncFTVuL9AeYZODA:1rC3wu:_MGPlZh75O70PncZDc5mNsA94AKMkCkeLemC_zTUb6s",
+            "expire_date": "2023-12-23T20:29:20.414Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "dpsmm85h7uh3fiy77qrjchff4a8c1h5e",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBBaAGX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIJU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VtrZtBgtSYPjIrGOBqvBseGeECKyZ2BFSSHkR0aZ4Cis95mncFTVuL9AeYZODA:1rC3yw:96QBhGhEOcqcb7ASAqvmsfoSpZqIkJkkZpItTYrCySg",
+            "expire_date": "2023-12-23T20:31:26.560Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "eg4f6y7neak0t0ir48dyqtvtutcspr85",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBBaAGX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIJU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VtrZtBgtSYPjIrGOBqvBseGeECKyZ2BFSSHkR0aZ4Cis95mncFTVuL9AeYZODA:1rC5v5:HF81eAPf7319LRa5fldbkhS3sX3CfQdz5WY-f3pxfZA",
+            "expire_date": "2023-12-23T22:35:35.317Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "hph2h51qtwvqsnp3p9psjyfoo9e7qpcr",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBBaAGX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIJU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VtrZtBgtSYPjIrGOBqvBseGeECKyZ2BFSSHkR0aZ4Cis95mncFTVuL9AeYZODA:1rC438:21EZID9OdS2KWnMLRrQp2m4Cs10EA-qbFRlcDWGkjx4",
+            "expire_date": "2023-12-23T20:35:46.720Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "kuuyeifaq46p6i0a9z42vyjb7bmoq79c",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBBaAGX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIJU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VtrZtBgtSYPjIrGOBqvBseGeECKyZ2BFSSHkR0aZ4Cis95mncFTVuL9AeYZODA:1r7Kfk:ZgP9SnbMSWBblhP5DU_epYuxwbAwTbqMIs5kY8GJja8",
+            "expire_date": "2023-12-10T19:20:04.413Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "lipa6ukzz0dpu1o6wn6ls0p4e4sho4z3",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBBaAGX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIJU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VtrZtBgtSYPjIrGOBqvBseGeECKyZ2BFSSHkR0aZ4Cis95mncFTVuL9AeYZODA:1rFDho:RZ9se2YCuuBYXh8ri6rTb1KO40WQ3ELFBls1o9JpAXQ",
+            "expire_date": "2024-01-01T13:30:48.742Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "nj2twy870pxn1f6hqem1fbu0qn7fllil",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBBaAGX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIJU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VtrZtBgtSYPjIrGOBqvBseGeECKyZ2BFSSHkR0aZ4Cis95mncFTVuL9AeYZODA:1r9XHT:7uYQ6fjG4L1aItisLOE4r7ss8NrkAAvdW1QOkb-IFHs",
+            "expire_date": "2023-12-16T21:12:07.937Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "qt3oz00nho27bv87wnftgqebo4wsesbo",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBBaAGX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIJU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VtrZtBgtSYPjIrGOBqvBseGeECKyZ2BFSSHkR0aZ4Cis95mncFTVuL9AeYZODA:1r7w8Y:dFYCayaqYw0LokYcfGyAEhWmXtfHcq-wz2tadsZS9Pg",
+            "expire_date": "2023-12-12T11:20:18.341Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "vm0g9ufdzblsw6vr0e5ecier5pyjto8j",
+        "fields": {
+            "session_data": ".eJxVjEEOwiAQRe_C2pBBaAGX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gIJU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VtrZtBgtSYPjIrGOBqvBseGeECKyZ2BFSSHkR0aZ4Cis95mncFTVuL9AeYZODA:1r7R8k:Og4q-OQ_7biufLQPCc5TkOV3Oia2w73JVMwdISwG-9c",
+            "expire_date": "2023-12-11T02:14:26.496Z"
+        }
+    },
+    {
+        "model": "token_blacklist.outstandingtoken",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "jti": "835c81bbed1c485594cdc3d3d7cc2317",
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwODcyNzUzNSwiaWF0IjoxNzAwOTUxNTM1LCJqdGkiOiI4MzVjODFiYmVkMWM0ODU1OTRjZGMzZDNkN2NjMjMxNyIsInVzZXJfaWQiOjF9.Dv7igj1pMP-6x7qhNpi5H8gwj6ClUQMTVgijPB4Y6KQ",
+            "created_at": "2023-11-25T22:32:15.634Z",
+            "expires_at": "2024-02-23T22:32:15Z"
+        }
+    },
+    {
+        "model": "restaurant.product",
+        "pk": 1,
+        "fields": {
+            "name": "Tika",
+            "description": "Tika classic",
+            "price": "2.50",
+            "ingredients": "Voda i toa voa",
+            "is_vegetarian": true,
+            "is_vegan": true,
+            "is_gluten_free": true,
+            "is_natural": false,
+            "is_drink": true,
+            "contain_alcohol": false,
+            "preparation_time": 0,
+            "tax_by_quantity": "0.00",
+            "tax_by_price": "5.00",
+            "restaurant": 1,
+            "ts_create": "2023-11-25T20:13:45.527Z",
+            "ts_update": "2023-11-25T20:13:45.527Z"
+        }
+    },
+    {
+        "model": "restaurant.product",
+        "pk": 2,
+        "fields": {
+            "name": "Chebapi, desetka so kromid",
+            "description": "10 cebapi kromit i pivo ne gratis",
+            "price": "399.00",
+            "ingredients": "meso, kromid trici",
+            "is_vegetarian": true,
+            "is_vegan": false,
+            "is_gluten_free": false,
+            "is_natural": true,
+            "is_drink": false,
+            "contain_alcohol": false,
+            "preparation_time": 18,
+            "tax_by_quantity": "0.00",
+            "tax_by_price": "5.00",
+            "restaurant": 1,
+            "ts_create": "2023-11-25T22:09:31.940Z",
+            "ts_update": "2023-11-27T19:44:16.263Z"
+        }
+    },
+    {
+        "model": "restaurant.product",
+        "pk": 3,
+        "fields": {
+            "name": "Гурбии селски",
+            "description": "Се топат у муцката",
+            "price": "11.00",
+            "ingredients": "Шечер, Брашно",
+            "is_vegetarian": true,
+            "is_vegan": true,
+            "is_gluten_free": false,
+            "is_natural": false,
+            "is_drink": false,
+            "contain_alcohol": false,
+            "preparation_time": 175,
+            "tax_by_quantity": "0.00",
+            "tax_by_price": "5.00",
+            "restaurant": 5,
+            "ts_create": "2023-12-09T20:19:32.175Z",
+            "ts_update": "2023-12-09T20:19:32.175Z"
+        }
+    },
+    {
+        "model": "restaurant.productimage",
+        "pk": 1,
+        "fields": {
+            "product": 1,
+            "name": "t1",
+            "description": "",
+            "image": "Product_images/tochak.jpg",
+            "ts_create": "2023-11-25T20:14:29.533Z",
+            "ts_update": "2023-11-25T20:14:29.533Z"
+        }
+    },
+    {
+        "model": "restaurant.productimage",
+        "pk": 2,
+        "fields": {
+            "product": 2,
+            "name": "c1",
+            "description": "",
+            "image": "Product_images/Чебапи.webp",
+            "ts_create": "2023-11-25T22:09:58.790Z",
+            "ts_update": "2023-11-25T22:09:58.790Z"
+        }
+    },
+    {
+        "model": "restaurant.productimage",
+        "pk": 4,
+        "fields": {
+            "product": 2,
+            "name": "t1",
+            "description": "",
+            "image": "Product_images/Чебапи.jpg",
+            "ts_create": "2023-11-25T22:13:19.891Z",
+            "ts_update": "2023-11-25T22:13:19.891Z"
+        }
+    },
+    {
+        "model": "restaurant.productimage",
+        "pk": 5,
+        "fields": {
+            "product": 2,
+            "name": "Rende Chebap",
+            "description": "",
+            "image": "Product_images/базолдрин.jpg",
+            "ts_create": "2023-11-27T19:41:05.073Z",
+            "ts_update": "2023-11-27T19:41:05.073Z"
+        }
+    },
+    {
+        "model": "restaurant.productimage",
+        "pk": 6,
+        "fields": {
+            "product": 1,
+            "name": "X'ta",
+            "description": "",
+            "image": "Product_images/Bovin_Sv._Trifun_Premium_Rakija_250.png",
+            "ts_create": "2023-11-28T11:34:52.716Z",
+            "ts_update": "2023-11-28T11:34:52.716Z"
+        }
+    },
+    {
+        "model": "restaurant.productimage",
+        "pk": 7,
+        "fields": {
+            "product": 2,
+            "name": "Rende Chebap",
+            "description": "",
+            "image": "Product_images/базолдрин_qYstnHe.jpg",
+            "ts_create": "2023-11-28T12:52:44.196Z",
+            "ts_update": "2023-11-28T12:52:44.196Z"
+        }
+    },
+    {
+        "model": "restaurant.productimage",
+        "pk": 8,
+        "fields": {
+            "product": 2,
+            "name": "1",
+            "description": "прва",
+            "image": "Product_images/компир_салата.jpg",
+            "ts_create": "2023-12-09T20:20:36.686Z",
+            "ts_update": "2023-12-18T13:39:52.927Z"
+        }
+    },
+    {
+        "model": "restaurant.productimage",
+        "pk": 9,
+        "fields": {
+            "product": 3,
+            "name": "2",
+            "description": "Втора",
+            "image": "Product_images/dolcegusto_cortado.jpg",
+            "ts_create": "2023-12-09T20:21:05.676Z",
+            "ts_update": "2023-12-09T20:21:05.676Z"
+        }
+    },
+    {
+        "model": "restaurant.productimage",
+        "pk": 10,
+        "fields": {
+            "product": 2,
+            "name": "Гурбии селски",
+            "description": null,
+            "image": "Product_images/Bovin_Sv._Trifun_Premium_Rakija_250_mC7iWVt.png",
+            "ts_create": "2023-12-18T13:39:31.901Z",
+            "ts_update": "2023-12-18T13:39:31.901Z"
+        }
+    },
+    {
+        "model": "restaurant.restaurant",
+        "pk": 1,
+        "fields": {
+            "name": "Pero Chebaparot",
+            "address": "Negotino, main street",
+            "ts_create": "2023-11-25T15:50:06.910Z",
+            "ts_update": "2023-11-25T15:50:06.910Z"
+        }
+    },
+    {
+        "model": "restaurant.restaurant",
+        "pk": 2,
+        "fields": {
+            "name": "Vaso Chorba",
+            "address": "Kaj Vrtalaskata 23",
+            "ts_create": "2023-11-25T15:50:42.405Z",
+            "ts_update": "2023-11-25T15:50:42.405Z"
+        }
+    },
+    {
+        "model": "restaurant.restaurant",
+        "pk": 3,
+        "fields": {
+            "name": "Rende Chebap",
+            "address": "Sn. Bishova br.32",
+            "ts_create": "2023-11-25T20:08:08.978Z",
+            "ts_update": "2023-11-25T20:08:08.978Z"
+        }
+    },
+    {
+        "model": "restaurant.restaurant",
+        "pk": 4,
+        "fields": {
+            "name": "Rade Pleskavica",
+            "address": "Sn. Prase br.32/2",
+            "ts_create": "2023-11-25T22:07:46.435Z",
+            "ts_update": "2023-11-25T22:07:46.435Z"
+        }
+    },
+    {
+        "model": "restaurant.restaurant",
+        "pk": 5,
+        "fields": {
+            "name": "Kooperaciata, Šeškovo",
+            "address": "Boris Šapšalov 2",
+            "ts_create": "2023-11-27T09:48:46.086Z",
+            "ts_update": "2023-11-27T09:48:46.086Z"
+        }
+    },
+    {
+        "model": "restaurant.vendor",
+        "pk": 1,
+        "fields": {
+            "name": "Rade Chebaparot",
+            "address": "Sn. Bishova br. 48",
+            "phone_number": "2234 9845",
+            "email": "budzivec@gmail.com",
+            "website": "http://www.pease.si.e.bishe",
+            "ts_create": "2023-11-25T20:10:52.529Z",
+            "ts_update": "2023-11-25T20:10:52.529Z"
+        }
+    },
+    {
+        "model": "restaurant.vendor",
+        "pk": 2,
+        "fields": {
+            "name": "Tikvesh",
+            "address": "Sn. Bishova br. 423",
+            "phone_number": "2234 9845",
+            "email": "budzivec@gmail.com",
+            "website": "https://www.tikves.mk",
+            "ts_create": "2023-11-25T20:11:50.940Z",
+            "ts_update": "2023-11-25T20:11:50.940Z"
+        }
+    }
+]

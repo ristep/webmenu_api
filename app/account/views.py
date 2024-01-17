@@ -17,6 +17,9 @@ class LoginView(auth_views.LoginView):
 
 # LogoutView
 class LogoutView(auth_views.LogoutView):
+    redirect_authenticated_user = True
+    template_name = "logout.html"
+    success_url = reverse_lazy("home")
     next_page = "home"
 
 

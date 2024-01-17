@@ -1,0 +1,16 @@
+asgiref @ file:///wheels/asgiref-3.7.2-py3-none-any.whl#sha256=89b2ef2247e3b562a16eef663bc0e2e703ec6468e2fa8a5cd61cd449786d4f6e
+Django @ file:///wheels/Django-4.2.7-py3-none-any.whl#sha256=e1d37c51ad26186de355cbcec16613ebdabfa9689bbade9c538835205a8abbe9
+django-cors-headers @ file:///wheels/django_cors_headers-4.3.0-py3-none-any.whl#sha256=bd36c7aea0d070e462f3383f0dc9ef717e5fdc2b10a99c98c285f16da84ffba2
+django-widget-tweaks @ file:///wheels/django_widget_tweaks-1.5.0-py3-none-any.whl#sha256=a41b7b2f05bd44d673d11ebd6c09a96f1d013ee98121cb98c384fe84e33b881e
+djangorestframework @ file:///wheels/djangorestframework-3.14.0-py3-none-any.whl#sha256=eb63f58c9f218e1a7d064d17a70751f528ed4e1d35547fdade9aaf4cd103fd08
+djangorestframework-simplejwt @ file:///wheels/djangorestframework_simplejwt-5.3.0-py3-none-any.whl#sha256=631d7ae2ed4365d7196a35d3cc0f6d382f7bd3361fb24c894f8f92b4da5db27d
+gunicorn @ file:///wheels/gunicorn-21.2.0-py3-none-any.whl#sha256=3213aa5e8c24949e792bcacfc176fef362e7aac80b76c56f6b5122bf350722f0
+packaging @ file:///wheels/packaging-23.2-py3-none-any.whl#sha256=8c491190033a9af7e1d931d0b5dacc2ef47509b34dd0de67ed209b5203fc88c7
+Pillow @ file:///wheels/Pillow-10.1.0-cp311-cp311-manylinux_2_28_x86_64.whl#sha256=a646e48de237d860c36e0db37ecaecaa3619e6f3e9d5319e527ccbc8151df061
+platformdirs @ file:///wheels/platformdirs-4.0.0-py3-none-any.whl#sha256=118c954d7e949b35437270383a3f2531e99dd93cf7ce4dc8340d3356d30f173b
+psycopg2-binary @ file:///wheels/psycopg2_binary-2.9.9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=977646e05232579d2e7b9c59e21dbe5261f403a88417f6a6512e70d3f8a046be
+PyJWT @ file:///wheels/PyJWT-2.8.0-py3-none-any.whl#sha256=59127c392cc44c2da5bb3192169a91f429924e17aff6534d70fdc02ab3e04320
+python-decouple @ file:///wheels/python_decouple-3.8-py3-none-any.whl#sha256=d0d45340815b25f4de59c974b855bb38d03151d81b037d9e3f463b0c9f8cbd66
+pytz @ file:///wheels/pytz-2023.3.post1-py2.py3-none-any.whl#sha256=ce42d816b81b68506614c11e8937d3aa9e41007ceb50bfdcb0749b921bf646c7
+PyYAML @ file:///wheels/PyYAML-6.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=d2b04aac4d386b172d5b9692e2d2da8de7bfb6c387fa4f801fbf6fb2e6ba4673
+sqlparse @ file:///wheels/sqlparse-0.4.4-py3-none-any.whl#sha256=5430a4fe2ac7d0f93e66f1efc6e1338a41884b7ddf2a350cedd20ccc4d9d28f3

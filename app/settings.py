@@ -60,6 +60,12 @@ INSTALLED_APPS = [
     "upload",
 ]
 
+# settings.py
+MIGRATION_MODULES = {
+    'auth':'account.auth_migrations',
+    # other app migrations...
+}
+
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "corsheaders.middleware.CorsMiddleware",
@@ -92,7 +98,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "wsgi.application"
-
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
@@ -210,3 +215,4 @@ SIMPLE_JWT = {
     "SLIDING_TOKEN_OBTAIN_SERIALIZER": "rest_framework_simplejwt.serializers.TokenObtainSlidingSerializer",
     "SLIDING_TOKEN_REFRESH_SERIALIZER": "rest_framework_simplejwt.serializers.TokenRefreshSlidingSerializer",
 }
+
