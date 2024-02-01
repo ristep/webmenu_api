@@ -64,6 +64,10 @@
             <br />
             <a class="" target="_blank" href=""> Coffee Shop - Demo Application </a>
         </div>
+        <form id="logout-form" method="post" action="/account/logout/">
+            {% csrf_token %}
+            <button type="submit">Log out bre</button>
+        </form>
     </footer>
 
     <!-- Modal delete confirm -->
