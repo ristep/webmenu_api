@@ -25,7 +25,7 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
                         {% if user.is_authenticated %}
                         <li>
-                            <a class="dropdown-item" href="{% url 'lgout' %}">Logout aman be({{ user.username }})</a>
+                            <a class="dropdown-item" href="{% url 'logout' %}">Logout aman be({{ user.username }})</a>
                         </li>
                         <li>
                             <a class="dropdown-item" href="{% url 'profile' user.id %}">Profile</a>

@@ -1,15 +1,21 @@
 version: '3.8'
+
 services:
+
   web:
+    restart: unless-stopped
     build: 
       context: ./app
+      # dockerfile: Dockerfile
       dockerfile: Dockerfile.prod
-    # command: 'python manage.py runserver 0.0.0.0:8000'
-    command: 'gunicorn wsgi:application --bind 0.0.0.0:8000'
+    command: 
+      # 'python manage.py runserver 0.0.0.0:8000'    # development
+      'gunicorn wsgi:application --bind 0.0.0.0:8000'   # production
     volumes:
       - ./app:/usr/src/app/
-      - mediafiles:/usr/src/app/mediafiles
-      - staticfiles:/usr/src/app/static
+      - staticfiles:/home/app/web/staticfiles
+      - mediafiles:/home/app/web/mediafiles
+
 
     ports:
       - '8000:8000'
@@ -17,7 +23,9 @@ services:
       - ./.env.prod
     depends_on:
       - db
+
   db:
+    restart: unless-stopped
     image: 'postgres:15'
     volumes:
       - 'postgres_data:/var/lib/postgresql/data/'
@@ -27,10 +35,11 @@ services:
       - ./.env.prod.db
 
   nginx:
+    restart: unless-stopped
     build: ./nginx
     volumes:
-      - staticfiles:/usr/src/app/static
-      - mediafiles:/usr/src/app/mediafiles
+      - staticfiles:/home/app/web/staticfiles
+      - mediafiles:/home/app/web/mediafiles
     ports:
       - 1337:80
     depends_on:

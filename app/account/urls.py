@@ -21,7 +21,7 @@ urlpatterns = [
         LoginView.as_view(),
         name="login",
     ),
-    path("lgout/", LogoutView.as_view(), name="lgout"),
+    path("logout/", LogoutView.as_view(), name="logout"),
     # Change Password
     path("change-password/", PasswordChangeView.as_view(), name="change_password"),
     # Forget Password

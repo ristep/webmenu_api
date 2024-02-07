@@ -62,7 +62,7 @@ INSTALLED_APPS = [
 
 # settings.py
 MIGRATION_MODULES = {
-    'auth':'account.auth_migrations',
+    'auth':'account.migrations',
     # other app migrations...
 }
 
