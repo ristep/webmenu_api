@@ -18,6 +18,9 @@ class Product(models.Model):
     restaurant = models.ForeignKey("Restaurant", on_delete=models.RESTRICT)
     lookup_field = "id"
 
+    # images = models.ForeignKey( ProductImage, related_name="products", on_delete=models.CASCADE )
+    # image_ids = models.CharField(max_length=255, blank=True)  # Store image IDs as a string
+
     ts_create = models.DateTimeField(auto_now_add=True)
     ts_update = models.DateTimeField(auto_now=True)
 
@@ -39,6 +42,7 @@ class ProductImage(models.Model):
 
     def __str__(self):
         return self.name
+
 
 
 class Restaurant(models.Model):

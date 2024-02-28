@@ -1,5 +1,7 @@
 #!/bin/sh
 
+python manage.py collectstatic --noinput
+
 if [ "$DATABASE" = "postgres" ]
 then
     echo "Waiting for postgres..."

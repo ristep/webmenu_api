@@ -1,0 +1,8 @@
+User-agent: *  # Allow all search engine crawlers by default
+
+# Disallow specific paths (optional)
+Disallow: /admin/
+Disallow: /media/uploads/  # Example of disallowing a directory
+
+# Specify your sitemap location (optional)
+Sitemap: https://wbm-api.sman.cloud/sitemap.xml

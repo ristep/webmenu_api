@@ -2,6 +2,7 @@ from rest_framework import viewsets
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework import permissions
+from django.views.generic import DetailView
 
 from .models import Product, ProductImage, Restaurant, Vendor
 from .serializers import ProductSerializer, ProductImageSerializer, RestaurantSerializer, VendorSerializer
@@ -41,3 +42,21 @@ class VendorViewSet(viewsets.ModelViewSet):
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     queryset = Vendor.objects.all()
     serializer_class = VendorSerializer
+
+
+class ProductDetailView(DetailView):
+    model = Product
+    template_name = 'product_detail.html'  # Replace with your desired template
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        product = self.object  # Access the current product instance
+
+        # Get all related photos for the product
+        product_images = ProductImage.objects.filter(product=product)
+
+        # Additional context data as needed
+        context['product_images'] = product_images
+        # ...
+
+        return context
