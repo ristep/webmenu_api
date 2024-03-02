@@ -170,6 +170,7 @@ ACCOUNT_UNIQUE_EMAIL = True
 
 STATIC_URL = "/static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
+STATICFILES_DIRS =[ BASE_DIR / "stako_demo", BASE_DIR / "stako_2" ]
 
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "mediafiles"
